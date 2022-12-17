@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*responsive*/
+}
+
+body{
+    background-image: url('/img/logo.svg');
+    color: whitesmoke !important; /*COR DAS LETRAS*/
+    margin-top: 20px !important;
+    text-align: center;
+}
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.photo{
+    border-radius: 7%;
+    border-right: 3px solid;
+    border-color: rgb(87, 255, 224);
+    border-style: inset;
+    max-width: 15%;
+    
+    
+}
+
+a{
+    text-decoration: none !important;
+    font-size: 20px;
+    color: whitesmoke !important; 
+
+}
+
+section{
+    
+    background-color: rgb(52, 10, 52);
+    border-radius: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+h2{
+    padding-top: 100px;
+    text-decoration: none !important;
+    font-size: 20px;
+    color: whitesmoke !important; 
+    /*background-image:url('/img/logo.svg');*/   
+    padding: 20px;
+
+    margin: auto;
+}
+#cards{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 10px; /*Gap faz o espaço entre os itens */
+    
+}
+
+.card-img{
+    border-radius: 7%;
+    border: 3px solid;
+    border-color: rgb(87, 255, 224);
+    border-style: inset;
+    
+}
+
+.card-body{
+    background-color: rgb(52, 10, 52);
+    border-radius: 7px;
+    max-width: 90px;
+    margin: auto;
+}
+
+
+footer{
+    border-top: 1px solid;
+}
