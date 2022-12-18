@@ -23,7 +23,7 @@
 
 <p align="center">
 
-  <img alt="Site pessoal" src=".github/Site_pessoal_preview_2.png" width="100%">
+  <img alt="Site pessoal" src=".github/preview2.png" width="100%">
 
 </p>
 
