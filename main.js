@@ -5,6 +5,7 @@
 function createCard(project, preview, link){
     //delay = delay + 0.4;
     return `
+    
     <div class="card" style="width: 18rem;">
       <a href="${link}" target="__blank__"> <!--link imbutido na imagem--!>
         <img src="/img/${preview}.png" class="card-img" alt="Projeto " width="200">
