@@ -2,12 +2,15 @@
 <h1 align="center"> SITE PESSOAL </h1>
 
 ​
-O famoso portfifolio hehe
+<p align="center">
+  O famoso portfólio hehe 
+</p>
+  
 <br>
 
 ​
 
-<h2 align="center">WEB:</h2>
+<h2 align="center">O site:</h2>
 
 ​
 
