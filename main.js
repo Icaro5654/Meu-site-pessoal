@@ -22,6 +22,6 @@ document.querySelector("#cards").innerHTML =
 // os intens estanos na seguinte ordem: ( PROJETO, PREVIEW, LINK )
 createCard("Calendario da Copa", "calendario", "https://github.com/Icaro5654/Calendario-da-Copa.git") + 
 
-createCard("Inteligencia Artificial", "IA", "#") + 
+createCard("Inteligencia Artificial", "IA", "https://github.com/Icaro5654/Sentimentos_com_IA.git") + 
 
 createCard("Em breve", "surpresa", "#")
