@@ -20,8 +20,8 @@ function createCard(project, preview, link){
 // CHAMANDO FUNÇÃO:
 document.querySelector("#cards").innerHTML = 
 // os intens estanos na seguinte ordem: ( PROJETO, PREVIEW, LINK )
-createCard("Em breve", "surpresa", "https://github.com/Icaro5654/Calendario-da-Copa.git") + 
+createCard("Calendario da Copa", "calendario", "https://github.com/Icaro5654/Calendario-da-Copa.git") + 
 
-createCard("Em breve", "surpresa", "#") + 
+createCard("Inteligencia Artificial", "IA", "#") + 
 
 createCard("Em breve", "surpresa", "#")

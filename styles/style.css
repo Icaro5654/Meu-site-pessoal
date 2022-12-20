@@ -53,7 +53,8 @@ a{
 
 section{
     
-    background-color: rgb(52, 10, 52);
+    /*background-color: rgb(52, 10, 52);*/
+    background-image: url('/img/logo.svg');
     border-radius: 10px;
     border-radius: 10px;
     max-width: 200px;
@@ -134,7 +135,8 @@ h2{
 
 
 .card-body{
-    background-color: rgb(52, 10, 52);
+    /*background-color: rgb(3, 65, 90);*/
+    background-image: url('/img/logo.svg');
     border-radius: 7px;
     max-width: 90px;
     margin: auto;
