@@ -175,3 +175,20 @@ footer{
     /*background-color: rgb(6, 103, 116)*/
     background-image: url('/img/logo.svg'); 
 }
+
+/*RESPONSIVIDADES */
+
+@media (max-width: 700px) {
+  section {
+    max-width: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) {
+  #cards {
+    max-width: 670px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
