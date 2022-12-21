@@ -15,6 +15,24 @@ body * {
     font-family: 'Roboto', sans-serif;
 }
 
+/*EFEITO PISCA: */
+#name::after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+  0%, 100% {
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+
+
 /*FOTO DO PERFIL*/
 #photo{
     height: 200px;
@@ -92,6 +110,15 @@ h2{
     margin: auto;
 }
 
+/*ID */
+#projects{
+  background-image: url('/img/logo.svg');
+  padding: 50px;
+  max-width: auto;
+  border-style: double;
+  border-radius: 2%;
+  border-style: none;
+}
 /*classe do H2 de PROJETOS*/
 .project{
     border-radius: 30px;
@@ -136,7 +163,7 @@ h2{
 
 .card-body{
     /*background-color: rgb(3, 65, 90);*/
-    background-image: url('/img/logo.svg');
+    /*background-image: url('/img/logo.svg');*/
     border-radius: 7px;
     max-width: 90px;
     margin: auto;
