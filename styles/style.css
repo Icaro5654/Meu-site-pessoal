@@ -7,13 +7,13 @@
 body{
     background-image: url('/img/logo.svg');
     color: whitesmoke !important; /*COR DAS LETRAS*/
-    margin-top: 20px !important;
     text-align: center;
 }
 
 body * {
     font-family: 'Roboto', sans-serif;
 }
+
 
 /*EFEITO PISCA: */
 #name::after {
@@ -32,9 +32,12 @@ body * {
   }
 }
 
-
+.main-space{
+  margin-top: 50px !important;
+}
 /*FOTO DO PERFIL*/
 #photo{
+    margin-top: 50px;
     height: 200px;
     height: 200px;
     border-radius: 50%;
@@ -62,13 +65,13 @@ img:hover {
 */
 
 
-a{
+/*a{
     text-decoration: none !important;
     font-size: 20px;
     color: whitesmoke !important; 
 
 }
-
+*/
 section{
     
     /*background-color: rgb(52, 10, 52);*/

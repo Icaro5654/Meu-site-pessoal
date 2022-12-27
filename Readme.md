@@ -37,8 +37,10 @@
 <br>
 
 <h2 align="center">Responsivel: <h2>
+<img alt="Site pessoal" src=".github/mobile2.png" width="100%">
+<img alt="Site pessoal" src=".github/mobile2.png" width="100%">
 <br>
-<p align="center">
+<p align="center"> Video:
 
 
 https://user-images.githubusercontent.com/81182770/208825271-84b0dca7-d0ad-4ce3-9bde-e294211f6f4f.mp4
