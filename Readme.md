@@ -37,7 +37,7 @@
 <br>
 
 <h2 align="center">Responsivel: <h2>
-<img alt="Site pessoal" src=".github/mobile2.png" width="100%">
+<img alt="Site pessoal" src=".github/mobile.png" width="100%">
 <img alt="Site pessoal" src=".github/mobile2.png" width="100%">
 <br>
 <p align="center"> Video:
