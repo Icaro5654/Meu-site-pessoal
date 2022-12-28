@@ -8,7 +8,7 @@ function createCard(project, preview, link){
     
     <div class="card" style="width: 18rem;">
       <a href="${link}" target="__blank__"> <!--link imbutido na imagem--!>
-        <img src="/img/${preview}.png" class="card-img" alt="Projeto " width="200">
+        <img src="/assets/${preview}.svg" class="card-img" alt="Projeto " width="200">
       </a>
       <div class="card-body">
         <p class="card-text">${project}</p>
