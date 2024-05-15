@@ -1,4 +1,4 @@
-*{
+*{ /*RESETA O CSS PADRAO DO NAVEGADOR*/
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*responsive*/
@@ -37,7 +37,7 @@ body * {
 }
 /*FOTO DO PERFIL*/
 #photo{
-    margin-top: 50px;
+    margin-top: 5em;
     height: 200px;
     height: 200px;
     border-radius: 50%;
@@ -100,6 +100,20 @@ section:hover {
 
 /*FIM DO EFEITO*/
 
+/*SOBRE MIM*/
+.sobre{
+  
+  background-color: rgb(46, 10, 78);
+  padding: 100px;
+  
+}
+
+#sobre{
+  max-width: 500px;
+  text-align: justify;
+  margin: auto;
+
+}
 
 
 h2{
@@ -115,18 +129,14 @@ h2{
 
 /*ID */
 #projects{
-  background-image: url('/assets/coding.svg');
-  padding: 50px;
+  /*background-image: url('');*/
+  margin-top: auto;
+  background-color: rgb(30, 11, 75);
+  padding: 100px;
   max-width: auto;
-  border-style: double;
-  border-radius: 2%;
-  border-style: none;
+  
 }
 /*classe do H2 de PROJETOS*/
-.project{
-    border-radius: 30px;
-    border-style: double;
-}
 
 
 #cards{
@@ -174,9 +184,9 @@ h2{
 
 
 footer{
-    border-top: 1px solid;
+    border-top: none;
     /*background-color: rgb(6, 103, 116)*/
-    background-image: url('/assets/projetos.svg'); 
+    background-image: url('/assets/logo.svg'); 
 }
 
 /*RESPONSIVIDADES */

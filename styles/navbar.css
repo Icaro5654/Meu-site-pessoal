@@ -14,18 +14,24 @@
     opacity: 0.7;
   }
   
+
   .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
   }
-  
+
+
   nav {
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url('/assets/logo.svg');
-    /*background-position-y: -150px;*/
+    background: #c8a3ec40;
+    border-bottom: 1px solid #c8a3ec40; /* COR HEXADECMAL*/
+    backdrop-filter: blur(10px);
     height: 10vh;/*vh é responsivel*/
    }
 
@@ -56,7 +62,7 @@ position: relative;
   content: " ";
   width: 0%;
   height: 3px;
-  background-color: rgb(73, 221, 251);
+  background-color: rgba(254, 254, 254, 0.745);
   position: absolute;
   bottom: 0;
   left: 0;

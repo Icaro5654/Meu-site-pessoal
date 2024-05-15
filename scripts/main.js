@@ -24,4 +24,4 @@ createCard("Calendario da Copa", "calendario", "https://github.com/Icaro5654/Cal
 
 createCard("Inteligencia Artificial", "IA", "https://github.com/Icaro5654/Sentimentos_com_IA.git") + 
 
-createCard("Em breve", "surpresa", "#")
+createCard("Calculadora", "calculadora", "#")
